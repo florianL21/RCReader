@@ -20,10 +20,10 @@ Notice also the value consistency is much better than the pulseIn implementaion.
 Both measurements were taken using a serial print and the arduino serial plotter at 115200 baud and a looptime of about 100ms
 
 #### 1.1.1 PulseIn:
-![PulseIn][PulseIn_Output]
+![PulseIn](/pictures/Value-output-of-pulseIn.png "Value output of pulseIn")
 
 #### 1.1.2 RCReader:
-![Rcreader][RCReader_Output]
+![RCReader](/pictures/Value-output-of-RCReader.png "Value output of RCReader")
 
 ## 2. Usage:
 Using the RCReader is a s simple as that:
@@ -74,6 +74,7 @@ For more examples take a look at the example sketches included with the library.
 Datatype name: `RCReaderPin`
 
 Possible values:
+
 | Port:  |  Pin:  |  Arduino pin:     | RCR pin name:|
 |-------:|--------|------------------:|--------------|
 B  |     0  |     53                 | RCR_PIN_53 |
@@ -225,10 +226,3 @@ This library has a couple limitations compared to the pulseIn function:
 * It is only possible to use it with the supported pins
 * For now it can only be used on an Arduino Mega 2560 I do not own any other arduino models, so I cannot test it on anying else.
 * Heavy usage of interrupts maybe impact the accuracy of the measured values.
-
-
-
-
-[PulseIn_Output]: https://github.com/florianL21/RCReader/tree/master/pictures/Value-output-of-pulseIn.png "Value output of pulseIn"
-
-[RCReader_Output]: https://github.com/florianL21/RCReader/tree/master/pictures/Value-output-of-RCReader.png "Value output of RCReader"
