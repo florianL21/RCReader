@@ -229,6 +229,6 @@ This library has a couple limitations compared to the pulseIn function:
 
 
 
-[PulseIn_Output]: https://github.com/florianL21/RCReader/pictures/Value-output-of-pulseIn.png "Value output of pulseIn"
+[PulseIn_Output]: https://github.com/florianL21/RCReader/tree/master/pictures/Value-output-of-pulseIn.png "Value output of pulseIn"
 
-[RCReader_Output]: https://github.com/florianL21/RCReader/pictures/Value-output-of-RCReader.png "Value output of RCReader"
+[RCReader_Output]: https://github.com/florianL21/RCReader/tree/master/pictures/Value-output-of-RCReader.png "Value output of RCReader"
