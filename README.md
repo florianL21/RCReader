@@ -20,10 +20,10 @@ Notice also the value consistency is much better than the pulseIn implementaion.
 Both measurements were taken using a serial print and the arduino serial plotter at 115200 baud and a looptime of about 100ms
 
 #### 1.1.1 PulseIn:
-![PulseIn_Output]
+![PulseIn][PulseIn_Output]
 
 #### 1.1.2 RCReader:
-![RCReader_Output]
+![Rcreader][RCReader_Output]
 
 ## 2. Usage:
 Using the RCReader is a s simple as that:
