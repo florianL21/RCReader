@@ -1,0 +1,4 @@
+RCReader	KEYWORD1
+getMicroseconds	KEYWORD2
+setValidRange	KEYWORD2
+setTimeout	KEYWORD2
